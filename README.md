@@ -3,6 +3,9 @@ Implementation of DQN, Double DQN, Dueling Networks using Pytorch in Google Foot
 
 ### Results
 
-#### DQN
+| **DQN**              | **Double DQN**    |
+| -------------------- | ----------------- |
+| ![](gif/DQN.gif)     | ![](gif/DDQN.gif) |
+| **Dueling DQN**      |                   |
+| ![](gif/Dueling.gif) |                   |
 
-![](gif/DQN.gif)
