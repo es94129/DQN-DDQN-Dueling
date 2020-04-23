@@ -131,7 +131,7 @@ class DuelingNetwork_Agent(DQN_Agent):
         # Q-Network
         self.q_eval = DuelingNetwork(state_size, action_size, seed).to(device)
         self.q_target = DuelingNetwork(state_size, action_size, seed).to(device)
-        self.optimizer = optim.RMSprop(self.q_eval.parameters())
+        self.optimizer = optim.RMSprop(self.q_eval.parameters(), lr=LR)
 
         # Replay Buffer
         self.memory = ReplayBuffer(seed=seed)
